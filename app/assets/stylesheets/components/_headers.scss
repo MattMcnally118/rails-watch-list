@@ -1,0 +1,20 @@
+h1 {
+color: $light-gray
+}
+
+.floating-header {
+  position: fixed;
+  bottom: 150px;                /* keep it higher */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.6); /* translucent black */
+  color: inherit;               /* inherit text color */
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;          /* same border radius as lists-card */
+  font-size: 1.8rem;
+  font-weight: 600;
+  box-shadow: none;             /* optional: remove or keep */
+  z-index: 1050;
+  user-select: none;
+}
+

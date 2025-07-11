@@ -1,0 +1,47 @@
+.lists-background {
+  background-image: url('https://www.healthyhearing.com/uploads/images/movies-hearing-loss-telecoil_s.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 3rem;
+}
+
+.list-background{
+  background: radial-gradient(circle,
+    #5a8bd6 0%,    /* lighter blue in center */
+    #082a48 100%   /* your dark blue at edges */
+  );
+  color: #fff;
+  min-height: 100vh;
+  padding: 2rem 0;
+
+    .container {
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 12px;
+  color: white;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+}
+
+
+.lists-card {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 12px;
+  color: white;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.lists-card-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
